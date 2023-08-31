@@ -1,0 +1,93 @@
+body{
+    background: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 2px;
+    border-radius: 0px 0px 30px 30px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15%;
+  }
+  li:hover{
+    background-color: black;
+    border-radius: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+.imk{
+   width: 200px;
+   height: 200px;
+}  
+.imj{
+    width: 200px;
+   height: 200px;
+}
+.iml{
+    width: 200px;
+   height: 200px;
+}
+  
+  .parent-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    margin-top: 10%;
+}
+
+  .parent-container img {
+    max-width: 100%;
+    height: auto;
+    background-image: linear-gradient(#f4f5f8, #eff1f5, #eef1f3);
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
+    transition: transform 0.6s; 
+    border-radius: 20px;
+}
+.parent-container img:hover {
+    transform: scale(1.5);
+}
+.label {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center; /* Center-align the text */
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.com_port{
+  height: 500px;
+  width: 180px;
+}
+img{
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+
+}

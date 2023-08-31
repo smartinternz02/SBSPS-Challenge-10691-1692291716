@@ -1,0 +1,19 @@
+.action-buttons{
+    text-align: center;
+    justify-content: center;
+ 
+    background-color: white;
+    height: 100px;
+}
+#show-map-button{
+    height: 2cm;
+    width: 4cm;
+    border-radius: 10px 0px ;
+    cursor: pointer;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    border: 2px rgb(6, 95, 212) solid;
+    color: rgb(6, 95, 212);
+}
+
